@@ -1,7 +1,27 @@
-# Руководство по обезвреживанию бомбы для игры Keep Talking and Nobody Explodes
+# Русификация игры Keep Talking and Nobody Explodes
+
+__Внимание!__ Этот проект основан на переводе официального руководства, но им не ограничивается. Целью стоит адаптировать не только инструкции, но и внутриигровые модули. В связи с этим предложенные ниже варианты инструкций __не совместимы с не-модифицированной версией игры__ (об этом ниже).
+
+В данный момент модифицирован один модуль, __Клавишные панели__ (Keypads). В оригинальной версии этот модуль выделяется среди остальных своей простотой — в частности, для знакомых с кириллицей игроков (и особенно для тех, кто знает букву «[юс](https://ru.wikipedia.org/wiki/%D0%AE%D1%81%D1%8B)»). В связи с этим (а заодно — с целью разнообразить привычные значки), все символы в этом модуле перерисованы. Называть многие из них станет чуть сложнее, но (я надеюсь) менее «оккультными» они казаться не стали.
+
+# Инструкция по модификации игры
+
+* Скачайте файл http://denull.github.io/Bomb-Defusal-Manual-rus/sharedassets2.assets
+* В Steam кликните правой кнопкой по __Keep Talking and Nobody Explodes__ в своём списке игр, выберите __Свойства__ (Properties), затем вкладку __Локальные файлы__ (Local files) и нажмите __Просмотреть локальные файлы...__ (View local files...).
+* Для __Windows__:
+  * Перейдите в подпапку __ktane_Data__ и вставьте с заменой скачанный файл __sharedassets2.assets__.
+* Для __macOS__:
+  * Нажмите правой кнопкой по приложению __Keep Talking and Nobody Explodes__, выберите __Показать содержимое пакета__.
+  * Перейдите в подпапку __Contents__, затем __Resources__, затем __Data__. Вставьте с заменой скачанный файл __sharedassets2.assets__.
+
+Если что-то пойдёт не так (игра не запустится, пропадут текстуры) — в свойствах игры в Steam на вкладке __Локальные файлы__ (Local files) нажмите __Проверить целостность кэша...__ (Verify integrity of game cache...). Это должно восстановить работоспособность игры.
+
+Мод работает только для версии игры 1.2 (в Steam отображается как 1275110).
+
+# Ссылки на руководства
 
 Смотреть онлайн:  
-http://dmitryscaletta.github.io/Bomb-Defusal-Manual-rus/
+http://denull.github.io/Bomb-Defusal-Manual-rus/
 
 Оригинал руководства:  
 http://www.bombmanual.com/manual/1/html/index.html
@@ -10,4 +30,7 @@ http://www.bombmanual.com/manual/1/html/index.html
 https://docs.google.com/document/d/1WLKf6Sz13xyGS3sNu0keQUH9-kxS5LH2rCSOSA6t3Tc/edit
 
 # Скачать PDF
-http://dmitryscaletta.github.io/Bomb-Defusal-Manual-rus/Bomb-Defusal-Manual-rus.pdf
+http://denull.github.io/Bomb-Defusal-Manual-rus/Bomb-Defusal-Manual-rus.pdf
+
+Если вы предпочитаете использовать оригинальную версию руководства (на английском), то в ней будет достаточно заменить только 7 страницу:
+http://denull.github.io/Bomb-Defusal-Manual-rus/Bomb-Defusal-Manual-eng-page7.pdf
